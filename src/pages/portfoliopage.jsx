@@ -2,7 +2,8 @@
 import React from 'react';
 import '../css/Body.css';
 import { Card } from 'react-bootstrap';
-import Filler from '../assets/images/th.jpg'
+import Recipieimage from '../assets/images/recipieproject.png'
+import Drinkimg from '../assets/images/drinkologist.png'
 
 //Create template for project cards
 const CardFormat = ( {title, info,image, link, git}) =>{
@@ -34,43 +35,29 @@ const CardFormat = ( {title, info,image, link, git}) =>{
 const projects = [
     {
         //Title of Project
-        title:'filler',
+        title:'RecipeProject',
         //Info about project
-        info:'this is a lot of filler',
+        info:'A full stack Node.js based blog I contributed to',
         //Github Repo Link
-        git:['stuff', 'morestuff', 'lots of stuff'], 
+        git:'https://github.com/Michaelepigott/RecipeProject', 
         //Image
-        image: Filler, 
+        image: Recipieimage, 
         //Deployed link
-        link:'https://developer.chrome.com/docs/workbox/managing-fallback-responses/#offline-page-only',
+        link:'https://thawing-sea-00451-374dc9c94032.herokuapp.com/',
     },
     {
-        title:'filler',
-        info:'this is a lot of filler',
-        git:['stuff', 'morestuff', 'lots of stuff'], 
-        image: Filler, 
-        link:'https://developer.chrome.com/docs/workbox/managing-fallback-responses/#offline-page-only',
+        title:'Drinkologist',
+        info:'A pure front end use of APIs to randomly generate and display a cocktail order based on user inputted ingredients',
+        git:'https://github.com/Michaelepigott/Group-Project-8-25', 
+        image: Drinkimg, 
+        link:'https://michaelepigott.github.io/Group-Project-8-25/',
     },
     {
-        title:'filler',
-        info:'this is a lot of filler',
-        git:['stuff', 'morestuff', 'lots of stuff'], 
-        image: Filler, 
-        link:'https://developer.chrome.com/docs/workbox/managing-fallback-responses/#offline-page-only',
-    },
-    {
-        title:'filler',
-        info:'this is a lot of filler',
-        git:['stuff', 'morestuff', 'lots of stuff'], 
-        image: Filler, 
-        link:'https://developer.chrome.com/docs/workbox/managing-fallback-responses/#offline-page-only',
-    },
-    {
-        title:'filler',
-        info:'this is a lot of filler',
-        git:['stuff', 'morestuff', 'lots of stuff'], 
-        image: Filler, 
-        link:'https://developer.chrome.com/docs/workbox/managing-fallback-responses/#offline-page-only',
+        title:'Drinkologist',
+        info:'A pure front end use of APIs to randomly generate and display a cocktail order based on user inputted ingredients',
+        git:'https://github.com/Michaelepigott/Group-Project-8-25', 
+        image: Drinkimg, 
+        link:'https://michaelepigott.github.io/Group-Project-8-25/',
     },
 ];
 //Impliment push Project objects into template

@@ -1,12 +1,20 @@
 import '../css/Body.css';
 import React from 'react';
+import Myimage from '../assets/images/myPhoto.png'
 export default function About() {
     //Create Bio content
     return(
         <div className="container">
             <h1>About Me</h1>
+            <img
+            className='myimage'
+            variant='top'
+            src = {Myimage}
+            alt = 'hello o/'
+            />
+
             <p>
-                LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                actual bio to be updated later LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Amet porttitor eget dolor morbi non arcu. 
                  Aliquam eleifend mi in nulla. At auctor urna nunc id cursus metus. Fermentum dui faucibus in ornare quam. 
                  Euismod nisi porta lorem mollis aliquam. Amet dictum sit amet justo donec enim diam vulputate. 

@@ -1,3 +1,13 @@
+footer{
+    display: block;
+    justify-content: end;
+    height: 5vh;
+    background-color: darkslategray;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
 @media only screen and (max-width: 767px) {
     body {
         margin: 0;
