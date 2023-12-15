@@ -1,0 +1,60 @@
+body{
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+
+.cardsize{
+    background-color: #9298a1;
+}
+.card img{
+    height: 20vh;
+    width: 70%;
+    float: left;
+    display: block;
+}
+.cardsize .sidebtns{
+    float: left;
+    width: 29%;
+    margin-top: 3vh;
+    padding: 10px;
+    box-sizing:border-box;
+    float: right;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: black;
+    border: 5px solid gray;
+}
+.btn2{
+    display: block;
+    width: 25%;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    border: 5px solid gray;
+}
+
+.resumelink{
+    font-size: larger;
+    color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+    .cardsize{
+        height: 30%;
+        width: 50%;
+        margin: 20px;
+    }
+    .cardcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  

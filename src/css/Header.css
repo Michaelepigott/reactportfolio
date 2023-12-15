@@ -1,0 +1,27 @@
+header{
+    background: darkslategray;
+    height: fit-content;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .01vh;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+.navcustom{
+    background-color: slategray;   
+}
+
+.nav-link{
+    color: lightskyblue;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0; }
+    }
+    
+
